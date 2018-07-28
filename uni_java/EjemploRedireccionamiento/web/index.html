@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Redireccionamiento</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Redireccionamiento</h1>
+        <a href="/EjemploRedireccionamiento/RedireccionamientoServlet">Link al servlet</a>
+        <br>
+        <a href="/EjemploRedireccionamiento/RecursoNoExitente">Link al recurso no existente</a>
+        <div>
+            <h2>Formulario de Autorización</h2>
+            <form name="form1" action="/EjemploRedireccionamiento/FormularioServlet" method="POST">
+                Usuario: <input type="text" name="usuario"/>
+                <br><br>
+                Password: <input type="password" name="password"/>
+                <br><br>
+                <input type="submit" value="Enviar"/>
+            </form>
+        </div>
+    </body>
+</html>
